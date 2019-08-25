@@ -29,9 +29,6 @@
             };
 
             sampler2D _MainTex;
-            float _Radius;
-            float _AlphaRad;
-            float _BetaRad;
             
             float3 _PlaneNormal;
             float3 _PlanePoint;

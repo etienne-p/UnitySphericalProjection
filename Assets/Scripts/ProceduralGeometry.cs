@@ -44,9 +44,6 @@ public class ProceduralGeometry : MonoBehaviour
     void UpdateMaterial()
     {
         // TODO: optimization, do not manipulate uniform string names
-        mat.SetFloat("_Radius", radius);
-        mat.SetFloat("_AlphaRad", alpha * Mathf.Deg2Rad);
-        mat.SetFloat("_BetaRad", beta * Mathf.Deg2Rad);
         mat.SetVector("_PlanePoint", projectionPlane.position);
         mat.SetVector("_PlaneNormal", projectionPlane.up);
         mat.SetMatrix("_WorldToPlane", projectionPlane.worldToLocalMatrix);

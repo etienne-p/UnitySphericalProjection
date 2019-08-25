@@ -188,7 +188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 0, z: -13.94}
+  m_LocalPosition: {x: -0.91, y: 0, z: -13.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -241,13 +241,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769913523}
-  m_LocalRotation: {x: 0.7017789, y: -0.08663917, z: 0.08663916, w: 0.70177895}
-  m_LocalPosition: {x: 0.95, y: -3.9228525e-14, z: 0.000000042036415}
+  m_LocalRotation: {x: 0.70546716, y: -0.04812627, z: 0.048126183, w: 0.70546716}
+  m_LocalPosition: {x: 0.95, y: -1.2918873e-13, z: 0.000000019280293}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 14.076}
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 7.8050003}
 --- !u!1 &1315934935
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,9 +280,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alpha: 146
-  beta: 66
+  beta: 57
   radius: 11.8
-  xResolution: 128
+  xResolution: 34
   yResolution: 64
   mat: {fileID: 2100000, guid: 7046304dcaa2946058b140666604bdd8, type: 2}
   projectionPlane: {fileID: 769913527}
